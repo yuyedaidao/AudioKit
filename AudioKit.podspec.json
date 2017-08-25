@@ -1,5 +1,5 @@
 {
-    "name": "AudioKit",
+    "name": "YQAudioKit",
     "version": "3.7.1",
     "authors": {
         "Aurelius Prochazka": "audiokit@audiokit.io"
@@ -21,10 +21,10 @@
         "tvos": "9.0"
     },
     "frameworks": [
-	"AVFoundation"
+        "AVFoundation"
     ],
     "pod_target_xcconfig": {
-	"ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES": "YES"
+        "ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES": "YES"
     },
     "osx": {
         "source_files": "macOS/AudioKit.framework/Versions/A/Headers/*.h",
